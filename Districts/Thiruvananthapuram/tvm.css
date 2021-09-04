@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+} 
+/* styling navbar */
+
+.logo{
+  width:140px;
+  height:40px;
+  margin-right:25px;
+  padding-right: 25px;
+}
+.nav-link{
+  font-family:'Roboto';
+  font-size:15px;  
+  font-weight:bold;
+  color:black !important;
+  letter-spacing:.02em;
+}
+
+.header22{ width: auto;
+  height: 550px;
+  background-image: url('ori1.png');
+  background-position:bottom;
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar style closed */
+
+  
+  
+  
+  
+  .header-content{
+    margin-bottom:90px;
+    color:rgb(255, 253, 253);
+    text-align:center;
+  }
+    
+    .header-content h2{
+      font-size: 20px;
+      font-family: 'Arvo','serif';
+      text-shadow: .1rem .3rem .8rem black;
+      letter-spacing:0.2em;
+    }
+    
+
+    .about-content{
+      padding-top:30px;
+      padding-bottom:50px;
+      color:#555;
+      text-align:justify;
+      font-family: 'Times New Roman', Times;
+  }
+  .col-md-12 h2{
+      
+      font-family: 'Roboto';
+      margin-top:50px;
+      font-size:20px;
+      font-weight: 600;
+     
+  } 
+  .line{
+      width:70px;
+      height:4px;
+      background:#012e5c;
+      margin:10px auto;
+      border-radius: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+
+
+.cards{
+    /* font-family: 'Poppins', sans-serif; */
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(255, 253, 253);
+}
+.cards img{
+  max-height:200px;
+  max-width:400px;
+  
+}
+
+.box-shadow{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+} 
+
+
+
+   
