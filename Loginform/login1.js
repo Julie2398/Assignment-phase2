@@ -23,6 +23,27 @@ document.myForm.emailAddr.focus();
 return false;
 }}
 
+function CheckPassword(inputtxt) 
+{ 
+var passformat=  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+if(inputtxt.value.match(passformat)) 
+{ 
+// alert('Correct, try another...')
+document.getElementById("pass1").innerHTML=" ";
+document.getElementById("pass1").style.color="yellow";
+return true;
+}
+else
+{ 
+// alert('Enter a valid password to continue')
+document.getElementById("pass1").innerHTML="**Passwords must be atleast 8 characters in length ";
+document.getElementById("pass1").style.color="yellow";
+
+// document.myForm.emailAddr.focus();
+return false;
+}
+} 
+
 // function CheckPassword(inputtxt) 
 // { 
 // var passformat=  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
