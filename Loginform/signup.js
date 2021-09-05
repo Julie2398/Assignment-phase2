@@ -189,7 +189,7 @@ document.getElementById("pass2").style.color="yellow";
 	}
 		else{
 			
-       alert("login failed");
+       alert("Sign Up failed");
 		}
 
 
