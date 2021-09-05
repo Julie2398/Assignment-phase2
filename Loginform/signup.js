@@ -145,6 +145,7 @@ document.getElementById("pass2").innerHTML="**Passwords do not match";
 document.getElementById("pass2").style.color="yellow";
     } else {  
         document.getElementById("pass2").innerHTML="";
+		return true;   
     } 
       }  
 
@@ -180,3 +181,16 @@ document.getElementById("pass2").style.color="yellow";
            }
       }
       
+	  function check()
+{
+	if(ValidateEmail(document.myForm.emailAddr) && CheckPassword(document.myForm.password)&&phonenumber(document.myForm.mobnumber)&&confirmPassword())
+	{
+		window.location = "login1.html";
+	}
+		else{
+			
+       alert("login failed");
+		}
+
+
+}
