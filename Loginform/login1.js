@@ -36,7 +36,7 @@ return true;
 else
 { 
 // alert('Enter a valid password to continue')
-document.getElementById("pass1").innerHTML="**Passwords must be atleast 8 characters in length ";
+document.getElementById("pass1").innerHTML="**Passwords must be in valid format";
 document.getElementById("pass1").style.color="yellow";
 
 // document.myForm.emailAddr.focus();
@@ -74,3 +74,16 @@ return false;
 
 
 
+function check()
+{
+	if(ValidateEmail(document.myForm.emailAddr)&& CheckPassword(document.myForm.password))
+	{
+		window.location = "../index.html";
+	}
+		else{
+			alert("Login failed");
+
+		}
+
+
+}
